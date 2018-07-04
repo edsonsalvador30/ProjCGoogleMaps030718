@@ -1,0 +1,18 @@
+{
+	"name": "cronos-components",
+	"version": "1.0.0",
+	"components": [
+		{
+			"name": "crn-google-maps",
+			"text_pt_BR": "Google Maps",
+			"text_en_US": "Google Maps",
+			"class": "adjust-icon mdi mdi-google-maps",
+			"template": "<div id=\"map${RANDOM}\" token=\"INSERT TOKEN HERE\" >",
+			"properties": {
+				"token": {
+					"removable": false
+				}
+			}
+		}
+	]
+}
